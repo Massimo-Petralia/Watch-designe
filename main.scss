@@ -6,6 +6,7 @@
                          'parallax parallax'
                          'focus focus'
                          'footer footer';
+    grid-template-rows: auto 700px auto 700px; 
 }
 #header{
     background: blue;
