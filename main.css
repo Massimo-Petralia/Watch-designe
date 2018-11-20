@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+#container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'header header' 'main main' 'footer footer';
+}
+
+#header {
+  background: blue;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+#main {
+  background: green;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer {
+  background: yellow;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+/*# sourceMappingURL=main.css.map */
