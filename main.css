@@ -1,7 +1,7 @@
 #container {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'header header' 'main main' 'parallax parallax' 'footer footer';
+      grid-template-areas: 'header header' 'main main' 'parallax parallax' 'focus focus' 'footer footer';
 }
 
 #header {
@@ -31,9 +31,17 @@
   grid-area: parallax;
 }
 
+.focus {
+  background: violet;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: focus;
+}
+
 #footer {
   background: yellow;
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;

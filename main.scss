@@ -3,6 +3,7 @@
     grid-template-areas: 'header header'
                          'main main'
                          'parallax parallax'
+                         'focus focus'
                          'footer footer';
 }
 #header{
@@ -17,6 +18,10 @@
 .parallax{
     background-color: grey; 
     grid-area: parallax;
+}
+.focus{
+    background: violet;
+    grid-area: focus;
 }
 #footer{
     background: yellow;
