@@ -2,7 +2,9 @@
 #container {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'header header' 'main main' 'parallax parallax' 'focus focus' 'footer footer';
+      grid-template-areas: 'header header' 'parallax parallax' 'main main' 'focus focus' 'parallax-2 parallax-2' 'footer footer';
+  -ms-grid-rows: auto 700px auto 700px;
+      grid-template-rows: auto 700px auto 700px;
 }
 
 #header {
@@ -15,7 +17,7 @@
 
 #main {
   background: green;
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: main;
@@ -25,11 +27,17 @@
 }
 
 .parallax {
-  background-color: grey;
-  -ms-grid-row: 3;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: parallax;
+  background-color: grey;
+  background-image: url(imm/cover-1.jpg);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .focus {
@@ -40,13 +48,33 @@
   grid-area: focus;
 }
 
+.parallax-2 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: parallax-2;
+  background-color: grey;
+  background-image: url(imm/cover-2.jpg);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #footer {
   background: yellow;
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;
 }
 
 /*-----------------END GRIND-----------------*/
+.box {
+  border: 1px solid black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
