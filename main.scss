@@ -2,11 +2,12 @@
 #container{
     display: grid;
     grid-template-areas: 'header header'
-                         'main main'
                          'parallax parallax'
+                         'main main'
                          'focus focus'
+                         'parallax-2 parallax-2'
                          'footer footer';
-    grid-template-rows: auto 700px auto 700px; 
+    grid-template-rows: auto 700px 700px 700px; 
 }
 #header{
     background: blue;
@@ -30,6 +31,16 @@
 .focus{
     background: violet;
     grid-area: focus;
+}
+.parallax-2{
+    grid-area: parallax-2;
+    background-color: grey; 
+    background-image: url(imm/cover-2.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #footer{
     background: yellow;
