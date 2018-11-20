@@ -1,7 +1,10 @@
+/*-----------------GRIND--------------------*/
 #container{
     display: grid;
     grid-template-areas: 'header header'
                          'main main'
+                         'parallax parallax'
+                         'focus focus'
                          'footer footer';
 }
 #header{
@@ -13,7 +16,16 @@
     grid-area: main;
     display: flex;
 }
+.parallax{
+    background-color: grey; 
+    grid-area: parallax;
+}
+.focus{
+    background: violet;
+    grid-area: focus;
+}
 #footer{
     background: yellow;
     grid-area: footer; 
 }
+/*-----------------END GRIND-----------------*/
