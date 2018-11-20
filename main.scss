@@ -1,3 +1,4 @@
+/*-----------------GRIND--------------------*/
 #container{
     display: grid;
     grid-template-areas: 'header header'
@@ -27,3 +28,4 @@
     background: yellow;
     grid-area: footer; 
 }
+/*-----------------END GRIND-----------------*/
