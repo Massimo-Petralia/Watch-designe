@@ -2,6 +2,7 @@
     display: grid;
     grid-template-areas: 'header header'
                          'main main'
+                         'parallax parallax'
                          'footer footer';
 }
 #header{
@@ -12,6 +13,10 @@
     background: green;
     grid-area: main;
     display: flex;
+}
+.parallax{
+    background-color: grey; 
+    grid-area: parallax;
 }
 #footer{
     background: yellow;
