@@ -3,8 +3,8 @@
   display: -ms-grid;
   display: grid;
       grid-template-areas: 'header header' 'parallax parallax' 'main main' 'focus focus' 'parallax-2 parallax-2' 'footer footer';
-  -ms-grid-rows: auto 700px auto 700px;
-      grid-template-rows: auto 700px auto 700px;
+  -ms-grid-rows: auto auto 700px 700px;
+      grid-template-rows: auto auto 700px 700px;
 }
 
 #header {
