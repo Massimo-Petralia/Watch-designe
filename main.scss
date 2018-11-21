@@ -49,7 +49,9 @@
 /*-----------------END GRIND-----------------*/
 .box{
     border: 1px solid black;
-    justify-content: space-around;
+    display: grid;
+    justify-content: start;
+    align-content: center;
     width: 100%;
 }
 
