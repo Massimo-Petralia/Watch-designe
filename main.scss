@@ -60,8 +60,23 @@
 }
 
 .clock{
-    transform-origin: 10px 298px;
+    transform-origin: 10px 308px;
     transform: rotate(-40deg);
     transition: 500ms;
     
+}
+.svg-item-1:hover{
+    cy: 65;
+}
+.svg-item-2:hover{
+    cy: 165;
+}
+.svg-item-3:hover{
+    cy: 305;
+}
+.svg-item-4:hover{
+    cy: 440;
+}
+.svg-item-5:hover{
+    cy: 540;
 }

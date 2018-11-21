@@ -88,11 +88,31 @@
 }
 
 .clock {
-  -webkit-transform-origin: 10px 298px;
-          transform-origin: 10px 298px;
+  -webkit-transform-origin: 10px 308px;
+          transform-origin: 10px 308px;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.svg-item-1:hover {
+  cy: 65;
+}
+
+.svg-item-2:hover {
+  cy: 165;
+}
+
+.svg-item-3:hover {
+  cy: 305;
+}
+
+.svg-item-4:hover {
+  cy: 440;
+}
+
+.svg-item-5:hover {
+  cy: 540;
 }
 /*# sourceMappingURL=main.css.map */
