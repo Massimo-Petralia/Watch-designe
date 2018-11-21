@@ -49,6 +49,19 @@
 /*-----------------END GRIND-----------------*/
 .box{
     border: 1px solid black;
-    justify-content: space-around;
+    display: grid;
+    justify-content: center;
+    align-content: center;
     width: 100%;
+}
+
+.canvas{
+    background: grey;
+}
+
+.clock{
+    transform-origin: 10px 298px;
+    transform: rotate(-40deg);
+    transition: 500ms;
+    
 }

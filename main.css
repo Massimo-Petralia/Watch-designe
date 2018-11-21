@@ -73,8 +73,26 @@
 /*-----------------END GRIND-----------------*/
 .box {
   border: 1px solid black;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width: 100%;
+}
+
+.canvas {
+  background: grey;
+}
+
+.clock {
+  -webkit-transform-origin: 10px 298px;
+          transform-origin: 10px 298px;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 /*# sourceMappingURL=main.css.map */
