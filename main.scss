@@ -54,6 +54,10 @@
     align-content: center;
     width: 100%;
 }
+.box-1{
+    display: grid;
+    justify-content: start;
+}
 
 .canvas{
     background: grey;

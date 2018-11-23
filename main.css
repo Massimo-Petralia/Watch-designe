@@ -83,6 +83,14 @@
   width: 100%;
 }
 
+.box-1 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 .canvas {
   background: grey;
 }
