@@ -59,3 +59,12 @@ function myFunction3() {
     var elem3 = document.getElementById('titolo3');
     elem3.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
 }
+function myFunction4() {
+    var elem4 = document.getElementById('titolo4');
+    elem4.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+}
+function myFunction5() {
+    var elem5 = document.getElementById('titolo5');
+    elem5.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+}
+
