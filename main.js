@@ -39,3 +39,23 @@ function myRotate_4() {
         rotate = false;
     }
 }
+
+var elem1 = document.getElementById('titolo1');
+var elem2 = document.getElementById('titolo2');
+var elem3 = document.getElementById('titolo3');
+var elem3 = document.getElementById('titolo4');
+var elem3 = document.getElementById('titolo5');
+
+
+function myFunction1() {
+    var elem1 = document.getElementById('titolo1');
+    elem1.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+}
+function myFunction2() {
+    var elem2 = document.getElementById('titolo2');
+    elem2.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+}
+function myFunction3() {
+    var elem3 = document.getElementById('titolo3');
+    elem3.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+}
