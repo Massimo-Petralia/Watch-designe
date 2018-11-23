@@ -97,11 +97,11 @@
 }
 
 .svg-item-1:hover {
-  cy: 65;
+  y: 5;
 }
 
 .svg-item-2:hover {
-  cy: 165;
+  y: 65;
 }
 
 .svg-item-3:hover {
