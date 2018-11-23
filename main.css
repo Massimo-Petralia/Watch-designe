@@ -87,9 +87,9 @@
   background: grey;
 }
 
-.clock {
-  -webkit-transform-origin: 10px 308px;
-          transform-origin: 10px 308px;
+#clock {
+  -webkit-transform-origin: 16.2px 308px;
+          transform-origin: 16.2px 308px;
   -webkit-transform: rotate(-40deg);
           transform: rotate(-40deg);
   -webkit-transition: 500ms;
