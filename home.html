@@ -15,7 +15,17 @@
         <div id="main">
             <div class="box box-1">
                 <svg class="canvas" width="600px" height="620px">
-                        <g id="clock">
+                        <defs>
+                            <filter id="ombra">
+                                   <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="passo1"></feGaussianBlur>
+                                   <feOffset in="passo1" dx="7" dy="2" result="passo2"></feOffset>
+                                   <feMerge>
+                                      <feMergeNode in="passo2"></feMergeNode>
+                                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                                   </feMerge>
+                                </filter>
+                             </defs>
+                        <g id="clock" filter="url(#ombra)">
                                 <g>
                                     <path fill="#FFF200" stroke="#000000" stroke-miterlimit="10" d="M229.877,295.305l-0.149,0.136
                                         c-0.599,0.544-0.658,1.466-0.134,2.082c11.776,13.843,0.784,23.687,0.313,24.097c-0.477,0.41-0.646,1.073-0.426,1.662
