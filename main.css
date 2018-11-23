@@ -16,7 +16,7 @@
 }
 
 #main {
-  background: green;
+  background: lightgray;
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -89,10 +89,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-}
-
-.canvas {
-  background: grey;
 }
 
 #clock {

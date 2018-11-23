@@ -14,7 +14,7 @@
     grid-area: header; 
 }
 #main{
-    background: green;
+    background: lightgray;
     grid-area: main;
     display: flex;
 }
@@ -57,10 +57,6 @@
 .box-1{
     display: grid;
     justify-content: start;
-}
-
-.canvas{
-    background: grey;
 }
 
 #clock{
