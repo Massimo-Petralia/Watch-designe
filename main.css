@@ -13,6 +13,12 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: header;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 #main {
