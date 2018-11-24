@@ -40,35 +40,43 @@ function myRotate_4() {
     }
 }
 
-var elem1 = document.getElementById('titolo1');
-var elem2 = document.getElementById('titolo2');
-var elem3 = document.getElementById('titolo3');
-var elem3 = document.getElementById('titolo4');
-var elem3 = document.getElementById('titolo5');
-
 
 function myFunction1() {
     var elem1 = document.getElementById('titolo1');
-    elem1.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+    var  topPos = elem1.offsetTop;
+
+    var elemContainer = document.getElementsByClassName('content')[0];
+    elemContainer.scrollTop = topPos;
 }
 function myFunction2() {
     var elem2 = document.getElementById('titolo2');
-    elem2.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+    var  topPos = elem2.offsetTop;
+
+    var elemContainer = document.getElementsByClassName('content')[0];
+    elemContainer.scrollTop = topPos;
 }
 function myFunction3() {
     var elem3 = document.getElementById('titolo3');
-    elem3.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+    var  topPos = elem3.offsetTop;
+
+    var elemContainer = document.getElementsByClassName('content')[0];
+    elemContainer.scrollTop = topPos;
 }
 function myFunction4() {
     var elem4 = document.getElementById('titolo4');
-    elem4.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+    var  topPos = elem4.offsetTop;
+
+    var elemContainer = document.getElementsByClassName('content')[0];
+    elemContainer.scrollTop = topPos;
 }
 function myFunction5() {
     var elem5 = document.getElementById('titolo5');
-    elem5.scrollIntoView({block: 'start', inline: 'nearest', behavior: 'smooth'}); 
+    var  topPos = elem5.offsetTop;
+
+    var elemContainer = document.getElementsByClassName('content')[0];
+    elemContainer.scrollTop = topPos; 
 }
 
-var elem = document.getElementById('header');
 
 function myHeight() {
     var elem = document.getElementById('header');
@@ -76,6 +84,6 @@ function myHeight() {
         elem = document.getElementById('header').style.height = '20px';
     } 
    
-    
+    // funzione incompleta
 }
 
