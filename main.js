@@ -40,7 +40,7 @@ function myRotate_4() {
     }
 }
 
-
+//FUNZIONI DI SCROLL DEI TITOLI ALL'INTERNO DEL BOX 'CONTENT'
 function myFunction1() {
     var elem1 = document.getElementById('titolo1');
     var  topPos = elem1.offsetTop;
