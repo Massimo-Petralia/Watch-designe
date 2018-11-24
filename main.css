@@ -19,6 +19,7 @@
   top: 0px;
   -webkit-transition: 500ms;
   transition: 500ms;
+  z-index: 5;
 }
 
 #main {
@@ -141,5 +142,6 @@
   width: 500px;
   height: 500px;
   overflow: hidden;
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
