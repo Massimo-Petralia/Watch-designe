@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'mposter';
+  src: url("font/mposter-webfont.svg") format("svg");
+  src: url("font/mposter-webfont.eot");
+  src: local(":D"), url("font/mposter-webfont.woff") format("woff"), url("font/mposter-webfont.ttf") format("true type");
+}
+
 /*-----------------GRIND--------------------*/
 #container {
   display: -ms-grid;
@@ -48,7 +55,7 @@
 }
 
 .focus {
-  background: violet;
+  background: #554d55;
   -ms-grid-row: 4;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -143,5 +150,12 @@
   height: 500px;
   overflow: hidden;
   position: relative;
+}
+
+.logo-gshock {
+  font-size: 13em;
+  font-family: mposter,  arial;
+  stroke-width: 5px;
+  stroke: black;
 }
 /*# sourceMappingURL=main.css.map */

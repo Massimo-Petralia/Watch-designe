@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'mposter';
+    src: url('font/mposter-webfont.svg') format('svg');
+    src: url('font/mposter-webfont.eot');
+    src: local(':D'),
+    url('font/mposter-webfont.woff') format('woff'),
+    url('font/mposter-webfont.ttf') format('true type'); 
+}
+
 /*-----------------GRIND--------------------*/
 #container{
     display: grid;
@@ -36,7 +45,7 @@
     background-size: cover;
 }
 .focus{
-    background: violet;
+    background: rgb(85, 77, 85);
     grid-area: focus;
 }
 .parallax-2{
@@ -99,6 +108,13 @@
     height: 500px;
     overflow: hidden;
     position: relative ;
+}
+
+.logo-gshock{
+    font-size: 13em;
+    font-family: mposter,  arial;
+    stroke-width: 5px;
+    stroke: black;
 }
    
  
