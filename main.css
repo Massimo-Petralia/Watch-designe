@@ -110,7 +110,7 @@
 }
 
 .box-2 {
-  background: radial-gradient(orange 30%, grey 100%);
+  background: radial-gradient(grey 50%, lightgrey 100%);
 }
 
 #clock {
@@ -158,6 +158,8 @@
   height: 500px;
   overflow: hidden;
   position: relative;
+  border-radius: 35%;
+  padding: 80px;
 }
 
 .logo-gshock {
@@ -167,5 +169,13 @@
   stroke: black;
   -webkit-filter: url(#logo-shadow);
           filter: url(#logo-shadow);
+}
+
+.justify {
+  text-align: justify;
+}
+
+.justify-title {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
