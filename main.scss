@@ -19,7 +19,7 @@
     grid-template-rows: auto auto 700px 700px; 
 }
 #header{
-    background: blue;
+    background: linear-gradient(to right,red 0% , aqua 20%, green 40% ,purple 60% , orange 80% , lightblue 100% );
     grid-area: header;
     height: 100px;
     width: 100%; 
@@ -27,6 +27,7 @@
     top: 0px;
     transition: 500ms;
     z-index: 5;
+    box-shadow: 0px 3px 4px black;
     
 }
 #main{
@@ -73,6 +74,7 @@
 .box-1{
     display: grid;
     justify-content: start;
+    background: radial-gradient(lightblue 30% , grey 100%);
 }
 
 #clock{
@@ -113,8 +115,21 @@
 .logo-gshock{
     font-size: 13em;
     font-family: mposter,  arial;
-    stroke-width: 5px;
+    stroke-width: 1px;
     stroke: black;
+    filter: url(#logo-shadow);
+}
+
+.radial-gradient-box-1{
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(lightblue 20% , transparent 100%);
+    position: absolute;
+    bottom: -200px;
+    left: 100px;
+    
+    
+   
 }
    
  

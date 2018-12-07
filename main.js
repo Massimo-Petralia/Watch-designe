@@ -78,12 +78,12 @@ function myFunction5() {
 }
 
 
-function myHeight() {
-    var elem = document.getElementById('header');
-    if (elem.style.height = '100px') {
-        elem = document.getElementById('header').style.height = '20px';
-    } 
+//function myHeight() {
+  //  var elem = document.getElementById('header');
+    //if (elem.style.height = '100px') {
+     //   elem = document.getElementById('header').style.height = '20px';
+   // } 
    
     // funzione incompleta
-}
+//}
 

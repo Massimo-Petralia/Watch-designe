@@ -15,7 +15,8 @@
 }
 
 #header {
-  background: blue;
+  background: -webkit-gradient(linear, left top, right top, from(red), color-stop(20%, aqua), color-stop(40%, green), color-stop(60%, purple), color-stop(80%, orange), to(lightblue));
+  background: linear-gradient(to right, red 0%, aqua 20%, green 40%, purple 60%, orange 80%, lightblue 100%);
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -27,6 +28,8 @@
   -webkit-transition: 500ms;
   transition: 500ms;
   z-index: 5;
+  -webkit-box-shadow: 0px 3px 4px black;
+          box-shadow: 0px 3px 4px black;
 }
 
 #main {
@@ -103,6 +106,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  background: radial-gradient(lightblue 30%, grey 100%);
 }
 
 #clock {
@@ -155,7 +159,18 @@
 .logo-gshock {
   font-size: 13em;
   font-family: mposter,  arial;
-  stroke-width: 5px;
+  stroke-width: 1px;
   stroke: black;
+  -webkit-filter: url(#logo-shadow);
+          filter: url(#logo-shadow);
+}
+
+.radial-gradient-box-1 {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(lightblue 20%, transparent 100%);
+  position: absolute;
+  bottom: -200px;
+  left: 100px;
 }
 /*# sourceMappingURL=main.css.map */
