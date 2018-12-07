@@ -110,7 +110,8 @@
 }
 
 .box-2 {
-  background: radial-gradient(grey 50%, lightgrey 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(-50%, black), to(grey));
+  background: linear-gradient(to right, black -50%, grey 100%);
 }
 
 #clock {
@@ -153,13 +154,14 @@
 }
 
 .content {
-  border: 1px solid black;
+  border: 1px solid white;
   width: 500px;
   height: 500px;
   overflow: hidden;
   position: relative;
   border-radius: 35%;
   padding: 80px;
+  color: white;
 }
 
 .logo-gshock {
