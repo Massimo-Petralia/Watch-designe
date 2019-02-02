@@ -11,16 +11,16 @@ function myRotate(deg1, deg2) {
     }
 
 }
-
-function myTranslate() {
+function myTranslate(translate1, translate2) {
     if (translate === false) {
-        document.getElementById('testanim').style.transform = "translate(900)";
+        document.getElementById('testanim').style.transform = "translate("+translate1+")";
         translate = true;
     } else if (translate === true) {
-        document.getElementById('testanim').style.transform = "translate(1400)";
+        document.getElementById('testanim').style.transform = "translate("+translate2+")";
         translate = false;
     }
 }
+
 
 function myScroll(y) {
     var elem = document.getElementsByClassName('content')[0];
