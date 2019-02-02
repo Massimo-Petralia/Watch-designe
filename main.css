@@ -160,7 +160,6 @@
   width: 500px;
   height: 500px;
   overflow: hidden;
-  position: relative;
   border-radius: 35%;
   padding: 80px;
   color: white;
@@ -181,5 +180,16 @@
 
 .justify-title {
   text-align: center;
+}
+
+.testsvg {
+  -webkit-transform-origin: 1700px 366px;
+          transform-origin: 1700px 366px;
+  -webkit-transform: rotate(-130deg);
+          transform: rotate(-130deg);
+  -webkit-transform: translate(1400);
+          transform: translate(1400);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 /*# sourceMappingURL=main.css.map */

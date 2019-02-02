@@ -91,10 +91,12 @@
 .svg-item-1:hover{
     y: 5;
     filter: none;
+    
 }
 .svg-item-2:hover{
     y: 65;
     filter: none;
+   
 }
 .svg-item-3:hover{
     y: 230;
@@ -114,11 +116,14 @@
     width: 500px;
     height: 500px;
     overflow: hidden;
-    position: relative ;
     border-radius: 35%;
     padding: 80px;
     color: white;
+    
 }
+
+
+
 
 .logo-gshock{
     font-size: 13em;
@@ -136,6 +141,9 @@
 }
 
 
-   
- 
- 
+ .testsvg{
+     transform-origin: 1700px 366px;
+     transform: rotate(-130deg);
+     transform: translate(1400);
+     transition: 1s;
+    }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-<body onscroll="myHeight()">
+<body onscroll="">
     <div id="container">
         <div id="header">
             <svg width="350" height="100">
@@ -87,45 +87,45 @@
                             
                                     <circle fill="cyan" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="22.808" cy="309.721" r="12.5"></circle>
                             </g>
-                    <image filter="url(#ombra-png)" class="svg-item svg-item-1" x="180" y="10"  href="imm/gshock-150-1.png"  onclick="myFunction1()"/>
-                    <image filter="url(#ombra-png)" class="svg-item svg-item-2" x="300" y="80"  href="imm/gshock-150-2.png" onmouseover="myRotate_1()" onmouseout="myRotate_1()" onclick="myFunction2()"/>
-                    <image filter="url(#ombra-png)" class="svg-item svg-item-3" x="400" y="235" href="imm/gshock-150-3.png" onmouseover="myRotate_2()" onmouseout="myRotate_2()" onclick="myFunction3()"/>
-                    <image filter="url(#ombra-png)" class="svg-item svg-item-4" x="300" y="400" href="imm/gshock-150-4.png" onmouseover="myRotate_3()" onmouseout="myRotate_3()" onclick="myFunction4()"/>
-                    <image filter="url(#ombra-png)" class="svg-item svg-item-5" x="180" y="475" href="imm/gshock-150-5.png" onmouseover="myRotate_4()" onmouseout="myRotate_4()" onclick="myFunction5()"/>
+                    <image filter="url(#ombra-png)" class="svg-item svg-item-1" x="180" y="10"  href="imm/gshock-150-1.png"   onclick="myScroll(0)"/>
+                    <image filter="url(#ombra-png)" class="svg-item svg-item-2" x="300" y="80"  href="imm/gshock-150-2.png" onmouseover="myRotate('-20deg', '-40deg')" onmouseout="myRotate_1()" onclick="myScroll(310)"/>
+                    <image filter="url(#ombra-png)" class="svg-item svg-item-3" x="400" y="235" href="imm/gshock-150-3.png" onmouseover="myRotate('0deg', '-40deg')" onmouseout="myRotate_2()" onclick="myScroll(620)"/>
+                    <image filter="url(#ombra-png)" class="svg-item svg-item-4" x="300" y="400" href="imm/gshock-150-4.png" onmouseover="myRotate('20deg', '-40deg')" onmouseout="myRotate_3()" onclick="myScroll(940)"/>
+                    <image filter="url(#ombra-png)" class="svg-item svg-item-5" x="180" y="475" href="imm/gshock-150-5.png" onmouseover="myRotate('40deg', '-40deg')" onmouseout="myRotate_4()" onclick="myScroll(3700)"/>
                     
                 </svg>
             </div>
             <div class="box box-2">
                 <div class="content">
-                    <div>
+                    <div class="content-position">
                        <h1 class="justify-title"  id="titolo1">titolo1</h1>
                       <p class="justify">Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
                     </div>
-                    <div>
+                    <div class="content-position">
                        <h1 class="justify-title"  id="titolo2">titolo2</h1>
                       <p class="justify">Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
                     </div>
-                    <div>
+                    <div class="content-position">
                         <h1 class="justify-title"  id="titolo3">titolo3</h1>
                        <p class="justify">Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
                      </div>
-                     <div>
+                     <div class="content-position">
                         <h1 class="justify-title"  id="titolo4">titolo4</h1>
                        <p class="justify">Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
                    « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
                      </div>
-                    <div>
+                    <div class="content-position">
                       <h1  class="justify-title" id="titolo5">titolo5</h1>
                       <p class="justify">Risultati immagini per testo prova lorem
                   « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.Risultati immagini per testo prova lorem
@@ -137,7 +137,7 @@
             </div>
         </div>
         <div class="focus">
-            <svg width="900" height="300">
+            <svg width="1820" height="700">
                 <defs>
                     <linearGradient id="gradiente1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
                             <stop offset="2%" stop-color="red"/>    
@@ -158,6 +158,22 @@
                              </filter>
                 </defs>     
                 <text fill="url(#gradiente1)" class="logo-gshock" x="10" y="240">Baby-G</text>
+                <g class="testsvg" >
+                            <path id="testanim" filter="url(#logo-shadow)" transform="translate(1400) scale(1.5)" fill="cyan" stroke="#000000" stroke-miterlimit="10" d="M218.984,296.052l-35.711,1.052
+                                        c-0.612,0.018-1.151,0.405-1.363,0.979c-0.212,0.574-0.055,1.219,0.398,1.631c3.562,3.236,5.329,6.65,5.253,10.146
+                                        c-0.124,5.726-5.151,9.977-5.199,10.018c-0.483,0.398-0.667,1.055-0.462,1.646s0.755,0.994,1.381,1.01l35.711,0.86
+                                        c0.012,0,0.024,0,0.036,0c0.31,0,0.612-0.096,0.866-0.275c0.221-0.156,5.415-3.898,6.265-10.646
+                                        c0.645-5.116-1.37-10.464-5.988-15.893C219.875,296.232,219.441,296.022,218.984,296.052z M223.187,312.06
+                                        c-0.551,4.493-3.607,7.428-4.665,8.32l-31.796-0.766c1.724-2.16,3.736-5.547,3.833-9.664c0.083-3.472-1.198-6.806-3.814-9.948
+                                        l31.598-0.931C222.057,303.62,223.686,307.987,223.187,312.06z"></path>
+                           <path  filter="url(#logo-shadow)" transform="translate(1400) scale(1.5)" fill="cyan" stroke="#000000" stroke-miterlimit="10" d="M229.877,295.305l-0.149,0.136
+                                        c-0.599,0.544-0.658,1.466-0.134,2.082c11.776,13.843,0.784,23.687,0.313,24.097c-0.477,0.41-0.646,1.073-0.426,1.662
+                                        c0.219,0.586,0.779,0.975,1.405,0.975c0.002,0,0.005,0,0.007,0c15.199-0.07,34.672-12.931,35.493-13.479
+                                        c0.42-0.279,0.671-0.752,0.668-1.257c-0.003-0.504-0.259-0.974-0.682-1.249c-0.839-0.545-20.704-13.356-35.486-13.356
+                                        C230.513,294.915,230.153,295.055,229.877,295.305z M262.715,309.543c-4.814,2.934-17.426,10.065-28.356,11.471
+                                        c2.978-4.18,6.708-12.57-0.537-22.927C244.654,299.299,257.766,306.587,262.715,309.543z"></path> 
+                    </g>
+                    <path d="M1700,10 L900,600" stroke="red" stroke-width="10px" onclick="myTranslate()"></path>                                                
             </svg>
         </div>
         <div class="parallax-2"></div>
