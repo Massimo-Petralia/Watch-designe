@@ -165,6 +165,10 @@
   color: white;
 }
 
+#scroll {
+  scroll-behavior: smooth;
+}
+
 .logo-gshock {
   font-size: 13em;
   font-family: mposter,  arial;

@@ -9,6 +9,7 @@ function myRotate(deg1, deg2) {
         document.getElementById('clock').style.transform = "rotate("+deg2+")";
         rotate = false;
     }
+    
 
 }
 function myTranslate(translate1, translate2) {
@@ -22,13 +23,8 @@ function myTranslate(translate1, translate2) {
 }
 
 
-function myScroll(y) {
-    var elem = document.getElementsByClassName('content')[0];
-    elem.scrollTo({
-        left: 0,
-        top: y,
-        behavior: "smooth"
-    } );
-}
+
+
+
 
 
